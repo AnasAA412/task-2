@@ -212,6 +212,6 @@ section#head .right{
   
 }
 section#head .right img{
-  height: 690px;
+  width: 100%;
   margin-top: 30px;
 }
