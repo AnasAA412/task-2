@@ -115,7 +115,6 @@ section#head .left {
 section#head .container {
   display: flex;
   justify-content: space-between;
-  
 }
 section#head .container .left h1 {
   font-size: 68px;
@@ -124,7 +123,6 @@ section#head .container .left h1 {
   width: -40%;
 }
 section#head .container .left .head-span {
-
 }
 section#head .container .left .head-span div.remarks {
   display: flex;
@@ -239,4 +237,112 @@ section#head .right img.play {
   width: 25%;
   top: 341px;
   left: 186px;
+}
+
+section#service {
+  background: #fcda69;
+  padding: 42px 10px;
+}
+
+section#service .container {
+  display: flex;
+}
+section#service .serv-left h1 {
+  font-size: 49px;
+  font-weight: 600;
+  width: 39%;
+  margin-top: 60px;
+}
+section#service .serv-left .small ul {
+  display: flex;
+  font-size: 12px;
+  width: 55%;
+  margin-top: 25px;
+}
+section#service .serv-left .small ul li {
+  margin-right: 20px;
+}
+
+section#service .image img {
+  margin-top: 190px;
+  width: 21%;
+}
+
+section#service hr {
+  border: solid 0.5px #000;
+  width: 520px;
+}
+section#service .serv-right ul {
+  display: flex;
+}
+section#service .serv-right li {
+  margin-right: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+section#service .serv-right .f1 h1 {
+  font-weight: 700;
+  font-size: 36px;
+  width: 70%;
+}
+section#service .serv-right .f1 span {
+  font-size: 10px;
+  font-weight: 600;
+}
+section#service .serv-right .img1 {
+  width: 9%;
+  
+}
+section#service .serv-right .f1 .web {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+ 
+}
+section#service .serv-right .f1 .expl {
+  margin-right: 380px;
+}
+section#service .serv-right .img2 {
+  width: 9%;
+  
+}
+section#service .serv-right .f2 .mobile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+ 
+}
+section#service .serv-right .f2 .mob {
+  margin-right: 380px;
+}
+section#service .serv-right .img3 {
+  width: 9%;
+  
+}
+section#service .serv-right .f3 .dashboard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+ 
+}
+section#service .serv-right .f3 .dash {
+  margin-right: 380px;
+}
+section#service .serv-right .f2 h1 {
+  font-weight: 700;
+  font-size: 36px;
+  width: 70%;
+}
+section#service .serv-right .f2 span {
+  font-size: 10px;
+  font-weight: 600;
+}
+section#service .serv-right .f3 h1 {
+  font-weight: 700;
+  font-size: 36px;
+  width: 70%;
+}
+section#service .serv-right .f3 span {
+  font-size: 10px;
+  font-weight: 600;
 }
