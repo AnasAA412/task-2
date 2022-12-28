@@ -70,6 +70,9 @@ br.clear {
   background: #fff;
   padding: 20px;
 }
+header .nav-left a {
+  width: 90%;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -83,11 +86,9 @@ section#head .middle ul {
 }
 section#head .middle ul li {
   margin-right: 20px;
-  
 }
 section#head .middle a {
   color: black;
-  
 }
 section#head .nav-right {
   margin: auto 0;
@@ -97,12 +98,11 @@ section#head .nav-right ul {
 }
 section#head .nav-right ul li {
   margin-right: 10px;
-  
 }
 
 section#head .nav-right a {
   color: black;
-  
+  margin-right: 51px;
 }
 
 #head .nav-right ul li a.button {
@@ -110,40 +110,43 @@ section#head .nav-right a {
   border: 1px solid #000;
 }
 section#head .left {
-  padding: 20px;
+  width: 35%;
+}
+section#head .container {
+  display: flex;
+  justify-content: space-between;
   
 }
-section#head .container{
+section#head .container .left h1 {
+  font-size: 68px;
+  font-weight: 600;
+  margin-top: 50px;
+  width: -40%;
+}
+section#head .container .left .head-span {
+
+}
+section#head .container .left .head-span div.remarks {
   display: flex;
 }
-section#head .left h1 {
-  display: inline-block;
-  font-size: 80px;
- margin-top: 40px;
-  width: 10%;
-}
-section#head .head-span h2{
-  margin-top: -20%;
-}
-section#head .head-span {
-  display: block;
+section#head .container .left .head-span div.remarks div.hyphen {
+  background: #000;
+  width: 20px;
+  height: 1px;
   display: flex;
+  margin: 7px 60px 0 0;
+}
+section#head .container .left .head-span div.remarks p {
   font-size: 12px;
-  align-items: center;
-  margin-top: 20px;
+  color: gray;
+  width: 68%;
 }
-section#head .head-span small{
-  margin-left: 30px;
-  width: 20%;
-  
-}
-section#head .btn-head{
+section#head .btn-head {
   margin-top: 20px;
   display: flex;
-  
 }
 
-section#head .btn-head .botton{
+section#head .btn-head .botton {
   background: #8873ef;
   border: none;
   border-radius: 12px;
@@ -156,21 +159,20 @@ section#head .btn-head .botton{
   align-items: center;
   margin-right: 10px;
 }
-section#head .btn-head  img{
+section#head .btn-head img {
   margin-left: 8px;
   margin-right: 5px;
 }
-section#head .btn-head .btn-img{
+section#head .btn-head .btn-img {
   height: 15px;
   width: 15px;
   filter: grayscale(1) invert(1);
 }
-section#head .btn-head .btn-white{
+section#head .btn-head .btn-white {
   border: none;
   background-color: white;
 }
-section#head .btn-head .btn-white{
-  
+section#head .btn-head .btn-white {
   border: none;
   border-radius: 12px;
   font-size: 11px;
@@ -182,13 +184,12 @@ section#head .btn-head .btn-white{
   align-items: center;
   margin-right: 10px;
 }
-section#head .btn-head .btn-img2{
+section#head .btn-head .btn-img2 {
   height: 15px;
   width: 15px;
-  
 }
 
-section#head .headbottom{
+section#head .headbottom {
   margin-top: 80px;
   margin-right: 60px;
 }
@@ -197,21 +198,45 @@ section#head .headbottom ul {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  
 }
-section#head .headbottom ul  h2{
+section#head .headbottom ul h2 {
   font-size: 15px;
 }
-section#head .headbottom ul .bg{
+section#head .headbottom ul .bg {
   background-color: #f4f4f4;
   padding: 11px 12px;
-  border-radius: 50% ;
+  border-radius: 50%;
 }
-section#head .right{
+
+section#head .right {
   display: flex;
-  
+  justify-content: space-between;
+  position: relative;
+  width: 60%;
 }
-section#head .right img{
-  width: 100%;
+section#head .right .image {
   margin-top: 30px;
+  margin-left: -10px;
+}
+section#head .right img {
+  width: 85%;
+  display: block;
+}
+section#head .right img.play {
+  position: absolute;
+  width: 15%;
+}
+section#head .right h2 {
+  position: absolute;
+  font-size: 15px;
+  font-weight: 700;
+  right: 100px;
+  width: 25%;
+  top: 67px;
+}
+section#head .right img.play {
+  position: absolute;
+  width: 25%;
+  top: 341px;
+  left: 186px;
 }
