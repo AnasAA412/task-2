@@ -291,39 +291,33 @@ section#service .serv-right .f1 span {
 }
 section#service .serv-right .img1 {
   width: 9%;
-  
 }
 section#service .serv-right .f1 .web {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
- 
 }
 section#service .serv-right .f1 .expl {
   margin-right: 380px;
 }
 section#service .serv-right .img2 {
   width: 9%;
-  
 }
 section#service .serv-right .f2 .mobile {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
- 
 }
 section#service .serv-right .f2 .mob {
   margin-right: 380px;
 }
 section#service .serv-right .img3 {
   width: 9%;
-  
 }
 section#service .serv-right .f3 .dashboard {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
- 
 }
 section#service .serv-right .f3 .dash {
   margin-right: 380px;
@@ -345,4 +339,84 @@ section#service .serv-right .f3 h1 {
 section#service .serv-right .f3 span {
   font-size: 10px;
   font-weight: 600;
+}
+section#skills {
+  padding: 42px 10px;
+}
+section#skills .container {
+  display: flex;
+}
+section#skills .skill-left h1 {
+  font-size: 49px;
+  font-weight: 600;
+  width: 39%;
+  margin-top: 60px;
+}
+section#skills .skill-left .small ul {
+  display: flex;
+  font-size: 12px;
+  width: 47%;
+  margin-top: 25px;
+}
+section#skills .skill-left .small ul li {
+  margin-right: 20px;
+}
+
+section#skills .skill-left ul.wra {
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+}
+section#skills .skill-left h2 {
+  margin-top: 40px;
+}
+section#skills .skill-left ul.wra li {
+  width: 30%;
+  margin-bottom: 20px;
+}
+section#skills .skill-left ul.wra li div.image {
+  width: 31%;
+  margin-top: 30px;
+}
+section#skills .skill-left ul.wra li div.image img {
+  width: 100%;
+  display: block;
+}
+section#skills .skill-left ul.wra h5 {
+  font-style: 12px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+section#skills hr {
+  border: solid 0.5px #000;
+  width: 450px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+section#skills .exp-right{
+  padding: 92px 10px;
+}
+section#skills .exp-right h2{
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+section#skills .exp-right ul {
+  display: flex;
+}
+section#skills .exp-right li {
+  margin-right: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 13px;
+}
+section#skills .exp-right .f3 h1 {
+  font-weight: 700;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+section#skills .exp-right .f3 span {
+  font-size: 10px;
+  font-weight: 600;
+  
 }
