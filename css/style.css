@@ -421,7 +421,6 @@ section#skills .exp-right .f3 span {
 }
 section#latest {
   background: #fcda69;
-  padding: 42px 10px;
 }
 section#latest section.container h1 {
   position: relative;
@@ -431,45 +430,266 @@ section#latest section.container h1 {
   font-weight: 600;
 }
 
-
 section#latest img.img {
   width: 9%;
-  
 }
-section#latest .head-main{
- display: flex;
- 
- 
+section#latest .head-main {
+  display: flex;
 }
-section#latest ul li{
+section#latest ul li {
   width: 30%;
   border-top: 2px solid #000;
-  
+
   position: relative;
 }
-section#latest ul li:nth-child(2){
-  top: -90px;
-  
+section#latest .rec {
+  width: 99%;
 }
-section#latest ul li:nth-child(3){
-  top: -170px;
+section#latest h2 {
+  width: 70%;
+  font-weight: 600;
+  margin-right: 60px;
+  margin-top: 20px;
 }
-section#latest ul{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 200px;
-}
-section#latest .rec{
-  width: 83%;
-}
-section#latest  h2{
+section#latest h2.vps {
   width: 60%;
   font-weight: 600;
   margin-right: 60px;
   margin-top: 20px;
 }
-section#latest p{
-  width: 60%;
-  font-weight: 500;
+
+section#latest p {
+  width: 70%;
+  font-weight: 600;
   margin-bottom: 10px;
 }
+section#latest ul li:nth-child(2) {
+  top: -90px;
+}
+section#latest ul li:nth-child(3) {
+  top: -197px;
+}
+section#latest ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+section#latest section.container div.image {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: right;
+  top: -150px;
+}
+
+section#clients {
+  padding: 42px 10px;
+}
+section#clients .top {
+  display: flex;
+}
+section#clients .top h1.cli-head {
+  font-size: 49px;
+  font-weight: 600;
+  width: 22%;
+  margin-top: 60px;
+}
+section#clients .top h1 {
+  font-size: 49px;
+  font-weight: 600;
+  width: 39%;
+  margin-top: 60px;
+}
+section#clients .top .small {
+  display: flex;
+  font-size: 12px;
+  width: 33%;
+  margin: 100px;
+  margin-top: 55px;
+}
+section#clients .top .image {
+  margin-top: 94px;
+}
+section#clients .top img.down-arrow {
+  width: 70%;
+}
+section#clients .top .small ul {
+  display: flex;
+}
+section#clients .top .small ul li {
+  margin-right: 20px;
+  font-size: 13px;
+}
+section#clients .down {
+  display: flex;
+  justify-content: space-between;
+}
+section#clients .down img.person {
+  width: 430px;
+  height: 430px;
+}
+section#clients .down .line {
+  border: solid 0.5px #000;
+}
+section#clients .down .wra {
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px 30px;
+  margin-top: 60px;
+}
+section#clients .down h2 {
+  font-size: 17px;
+  margin-top: 70px;
+  color: grey;
+  width: 99%;
+}
+section#clients .down h2.name {
+  margin-top: 20px;
+  color: #000;
+}
+section#clients .down p {
+  margin-bottom: 70px;
+  color: grey;
+}
+section#clients .down h2 strong {
+  font-weight: 600;
+  color: #000;
+}
+section#discuss {
+  background: #fcda69;
+  padding: 25px 0;
+}
+section#discuss section.container {
+  display: flex;
+  
+  
+}
+section#discuss section.container h1 {
+  font-size: 49px;
+  font-weight: 600;
+  width: 70%;
+  margin-top: 90px;
+}
+section#discuss .line {
+  border: solid 0.5px #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+section#discuss .msg {
+  display: flex;
+  margin-top: 10px;
+}
+section#discuss .icon {
+  width: 10%;
+  margin-right: 30px;
+}
+section#discuss .details {
+  flex-wrap: wrap;
+}
+section#discuss span {
+  font-size: 11px;
+  color: grey;
+}
+section#discuss h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+section#discuss section.wrapper div.disright div.circle {
+  border-radius: 50%;
+  border: 1px solid #000;
+  width: 420px;
+  height: 420px;
+  
+
+}
+section#discuss .disright{
+  padding: 80px ;
+}
+section#discuss .hands {
+  display: flex;
+  align-items: center;
+  margin-top: 124px;
+  border-bottom: 2px solid #000;
+  width: 70%;
+  justify-content: space-between;
+  margin: 124px auto 0;
+}
+section#discuss h2.hi{
+  margin-right: 70px;
+}
+hr.linemain {
+  border-bottom: solid 2px #000;
+ width: 80%;
+  margin-left: 40px;
+}
+footer {
+  padding: 40px 0 20px;
+}
+footer section.wrapper {
+  padding: 25px 0;
+}
+footer div.bottom {
+  display: flex;
+}
+footer div.bottom .foot-icon img{
+  width: 90px;
+}
+footer div.bottom div.left {
+  width: 40%;
+}
+footer div.bottom div.left p {
+  max-width: 80%;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+footer div.bottom div.right {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div.right h6 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+footer div.right ul.img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer div.contact ul li.call img.call-img{
+  height: 20px;
+  width: 20px;
+  align-items: center;
+}
+footer div.contact ul li.call {
+  align-items: center;
+  margin-top: 10px;
+  
+}
+footer div.right ul.img li img{
+  height: 30px;
+  width: 30px;
+  display: block;
+  
+}
+footer div.right ul.boto{
+  display: flex;
+  
+}
+footer div.right ul li {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+footer div.right ul.boto li{
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
