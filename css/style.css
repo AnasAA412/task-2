@@ -89,6 +89,11 @@ section#head .middle ul li {
 }
 section#head .middle a {
   color: black;
+  font-size: 14px;
+}
+section#head header .middle ul li.border a {
+  border-bottom: 1px solid #000;
+  font-weight: 600;
 }
 section#head .nav-right {
   margin: auto 0;
@@ -103,6 +108,7 @@ section#head .nav-right ul li {
 section#head .nav-right a {
   color: black;
   margin-right: 51px;
+  font-weight: 600;
 }
 
 #head .nav-right ul li a.button {
@@ -116,29 +122,31 @@ section#head .container {
   display: flex;
   justify-content: space-between;
 }
+section#head .container .left .heading {
+  margin-top: 30px;
+}
+section#head .container .left p.hello {
+  transform: skewY(-30deg);
+  width: 20px;
+  color: #8873ef;
+}
 section#head .container .left h1 {
   font-size: 68px;
   font-weight: 600;
-  margin-top: 50px;
   width: -40%;
 }
-section#head .container .left .head-span {
-}
-section#head .container .left .head-span div.remarks {
+
+section#head .head-span .small ul {
   display: flex;
-}
-section#head .container .left .head-span div.remarks div.hyphen {
-  background: #000;
-  width: 20px;
-  height: 1px;
-  display: flex;
-  margin: 7px 60px 0 0;
-}
-section#head .container .left .head-span div.remarks p {
   font-size: 12px;
-  color: gray;
-  width: 68%;
+  width: 85%;
+  margin-top: 25px;
 }
+section#head .head-span .small ul li {
+  margin-right: 20px;
+  color: grey;
+}
+
 section#head .btn-head {
   margin-top: 20px;
   display: flex;
@@ -149,7 +157,7 @@ section#head .btn-head .botton {
   border: none;
   border-radius: 12px;
   font-size: 11px;
-  padding: 10px 10px;
+  padding: 20px 15px;
   color: #fff;
   align-items: center;
   font-weight: 700;
@@ -161,6 +169,7 @@ section#head .btn-head img {
   margin-left: 8px;
   margin-right: 5px;
 }
+
 section#head .btn-head .btn-img {
   height: 15px;
   width: 15px;
@@ -174,7 +183,7 @@ section#head .btn-head .btn-white {
   border: none;
   border-radius: 12px;
   font-size: 11px;
-  padding: 10px 10px;
+  padding: 20px 15px;
   color: #000;
   align-items: center;
   font-weight: 700;
@@ -198,7 +207,7 @@ section#head .headbottom ul {
   width: 100%;
 }
 section#head .headbottom ul h2 {
-  font-size: 15px;
+  font-size: 13px;
 }
 section#head .headbottom ul .bg {
   background-color: #f4f4f4;
@@ -247,11 +256,17 @@ section#service {
 section#service .container {
   display: flex;
 }
+
+section#service .container .heading p.hello {
+  transform: skewY(-30deg);
+  width: 20px;
+  color: #8873ef;
+}
 section#service .serv-left h1 {
   font-size: 49px;
   font-weight: 600;
   width: 39%;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 section#service .serv-left .small ul {
   display: flex;
@@ -269,7 +284,7 @@ section#service .image img {
 }
 
 section#service hr {
-  border: solid 0.5px #000;
+  border: solid 0.5px grey;
   width: 520px;
 }
 section#service .serv-right ul {
@@ -346,11 +361,21 @@ section#skills {
 section#skills .container {
   display: flex;
 }
+section#skills .container .heading p.hello {
+  transform: skewY(-30deg);
+  width: 20px;
+  color: #8873ef;
+}
+section#skills .serv-left h1 {
+  font-size: 49px;
+  font-weight: 600;
+  width: 39%;
+  margin-top: 10px;
+}
 section#skills .skill-left h1 {
   font-size: 49px;
   font-weight: 600;
   width: 39%;
-  margin-top: 60px;
 }
 section#skills .skill-left .small ul {
   display: flex;
@@ -388,7 +413,7 @@ section#skills .skill-left ul.wra h5 {
   margin-top: 30px;
 }
 section#skills hr {
-  border: solid 0.5px #000;
+  border: solid 0.5px grey;
   width: 450px;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -488,18 +513,17 @@ section#clients {
 section#clients .top {
   display: flex;
 }
+section#clients .top .heading p.hello {
+  transform: skewY(-30deg);
+  width: 20px;
+  color: #8873ef;
+}
 section#clients .top h1.cli-head {
   font-size: 49px;
   font-weight: 600;
-  width: 22%;
-  margin-top: 60px;
+  width: 65%;
 }
-section#clients .top h1 {
-  font-size: 49px;
-  font-weight: 600;
-  width: 39%;
-  margin-top: 60px;
-}
+
 section#clients .top .small {
   display: flex;
   font-size: 12px;
@@ -561,14 +585,17 @@ section#discuss {
 }
 section#discuss section.container {
   display: flex;
-  
-  
 }
+section#discuss .container .dis-left .heading p.hello {
+  transform: skewY(-30deg);
+  width: 20px;
+  color: #8873ef;
+}
+
 section#discuss section.container h1 {
   font-size: 49px;
   font-weight: 600;
   width: 70%;
-  margin-top: 90px;
 }
 section#discuss .line {
   border: solid 0.5px #000;
@@ -601,11 +628,9 @@ section#discuss section.wrapper div.disright div.circle {
   border: 1px solid #000;
   width: 420px;
   height: 420px;
-  
-
 }
-section#discuss .disright{
-  padding: 80px ;
+section#discuss .disright {
+  padding: 80px;
 }
 section#discuss .hands {
   display: flex;
@@ -616,12 +641,12 @@ section#discuss .hands {
   justify-content: space-between;
   margin: 124px auto 0;
 }
-section#discuss h2.hi{
+section#discuss h2.hi {
   margin-right: 70px;
 }
 hr.linemain {
   border-bottom: solid 2px #000;
- width: 80%;
+  width: 80%;
   margin-left: 40px;
 }
 footer {
@@ -633,7 +658,7 @@ footer section.wrapper {
 footer div.bottom {
   display: flex;
 }
-footer div.bottom .foot-icon img{
+footer div.bottom .foot-icon img {
   width: 90px;
 }
 footer div.bottom div.left {
@@ -657,14 +682,13 @@ footer div.right h6 {
   margin-bottom: 10px;
 }
 
-
 footer div.right ul.img {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-footer div.contact ul li.call img.call-img{
+footer div.contact ul li.call img.call-img {
   height: 20px;
   width: 20px;
   align-items: center;
@@ -672,24 +696,604 @@ footer div.contact ul li.call img.call-img{
 footer div.contact ul li.call {
   align-items: center;
   margin-top: 10px;
-  
 }
-footer div.right ul.img li img{
+footer div.right ul.img li img {
   height: 30px;
   width: 30px;
   display: block;
-  
 }
-footer div.right ul.boto{
+footer div.right ul.boto {
   display: flex;
-  
 }
 footer div.right ul li {
   font-size: 15px;
   margin-bottom: 10px;
 }
-footer div.right ul.boto li{
+footer div.right ul.boto li {
   margin-right: 20px;
   margin-top: 30px;
 }
+@media all and (max-width: 1200px) {
+  section#head .container .left h1 {
+    font-size: 52px;
+    font-weight: 600;
+    width: -40%;
+  }
+  section#head .nav-right ul li {
+    margin-right: -46px;
+  }
+  section#head .right img.play {
+    position: absolute;
+    width: 25%;
+    top: 241px;
+    left: 136px;
+  }
+  section#head .nav-right a {
+    color: black;
+    margin-right: 65px;
+    font-weight: 600;
+  }
+  section#service .small {
+    width: 150%;
+  }
+  section#head .right h2 {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 700;
+    right: 100px;
+    width: 33%;
+    top: 67px;
+  }
+  section#skills .skill-left h1 {
+    font-size: 39px;
+    font-weight: 600;
+    width: 46%;
+  }
+  section#skills .small {
+    width: 161%;
+  }
+  section#skills .skill-left ul.wra {
+    display: flex;
+    width: 103%;
+    flex-wrap: wrap;
+  }
+  section#service .serv-left .small ul li {
+    margin-right: 20px;
+    display: flex;
+  }
+  section#latest .rec {
+    width: 88%;
+  }
+  section#head .head-span .small ul li {
+    display: flex;
+  }
+  section#service .serv-left h1 {
+    font-size: 41px;
+    font-weight: 600;
+    width: 67%;
+    margin-top: 10px;
+  }
+  section#latest h2 {
+    width: 80%;
+    font-weight: 600;
+    margin-right: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  section#latest img.img {
+    width: 15%;
+  }
+  section#latest ul li {
+    width: 32%;
+    border-top: 2px solid #000;
+    position: relative;
+  }
+  section#latest ul {
+    margin: -14px;
+    padding: 7px;
+    margin-top: 200px;
+  }
+  section#latest section.container h1 {
+    position: relative;
+    font-size: 47px;
+    top: 174px;
+    width: 25%;
+    font-weight: 600;
+  }
+  section#clients .top h1.cli-head {
+    font-size: 39px;
+    font-weight: 600;
+    width: 86%;
+  }
+  section#clients .top {
+    display: flex;
+    width: 105%;
+  }
+  section#clients .down img.person {
+    width: 247px;
+    height: 289px;
+  }
+  section#clients .down p {
+    margin-bottom: 24px;
+    color: grey;
+  }
+  section#clients .down h2 {
+    font-size: 17px;
+    margin-top: 38px;
+    color: grey;
+    width: 99%;
+  }
+  section#clients .down .wra {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 11px 27px;
+    margin-top: 2px;
+  }
+  section#discuss section.container h1 {
+    font-size: 39px;
+    font-weight: 600;
+    width: 80%;
+  }
+  section#discuss section.wrapper div.disright div.circle {
+    border-radius: 50%;
+    border: 1px solid #000;
+    width: 290px;
+    height: 290px;
+  }
+  section#discuss .line {
+    border: solid 0.5px #000;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: 30px;
+  }
+  section#discuss h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 67%;
+  }
+  section#discuss .hands {
+    display: flex;
+    align-items: center;
+    margin-top: 94px;
+    border-bottom: 2px solid #000;
+    width: 69%;
 
+    margin: 64px auto 0;
+  }
+  footer div.bottom div.right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer div.bottom div.left p {
+    max-width: 48%;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  footer .left .foot-icon {
+    width: 10%;
+  }
+  footer div.bottom div.left {
+    width: 44%;
+  }
+  footer div.right ul.boto {
+    width: -90%;
+    margin-top: 70px;
+  }
+  section#discuss h2.hi {
+    margin-right: 32px;
+  }
+  section#discuss div.hands img.hand-img {
+    margin-right: 10px;
+  }
+}
+@media all and (max-width: 980px) {
+  section#head .middle ul {
+    display: none;
+  }
+  section#head .container .left h1 {
+    font-size: 42px;
+    font-weight: 600;
+    width: -40%;
+  }
+  section#head .right h2 {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 700;
+    right: 0px;
+    width: 44%;
+    top: 57px;
+  }
+  section#head .btn-head .botton {
+    background: #8873ef;
+    border: none;
+    border-radius: 12px;
+    font-size: 11px;
+    padding: 9px 6px;
+    color: #fff;
+    align-items: center;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  section#head .btn-head .btn-white {
+    border: none;
+    border-radius: 12px;
+    font-size: 11px;
+    padding: 9px 8px;
+    color: #000;
+    align-items: center;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  section#head .headbottom ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 153%;
+  }
+  section#head .headbottom ul .bg {
+    background-color: #f4f4f4;
+    padding: 9px 12px;
+    border-radius: 50%;
+  }
+  section#service .serv-left h1 {
+    font-size: 36px;
+    font-weight: 600;
+    width: 125%;
+    margin-top: 10px;
+  }
+
+  section#service hr {
+    border: solid 0.5px grey;
+    width: 433px;
+  }
+  section#service .serv-right li {
+    margin-right: 63px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+
+  section#service .serv-left .small ul {
+    display: none;
+    font-size: 12px;
+    width: 55%;
+    margin-top: 25px;
+  }
+  section#service .serv-right ul {
+    display: grid;
+  }
+  section#service .image img {
+    margin-top: 303px;
+    width: 49%;
+  }
+  section#skills .skill-left h1 {
+    font-size: 36px;
+    font-weight: 600;
+    width: 72%;
+  }
+  section#skills .skill-left .small ul {
+    display: none;
+    font-size: 12px;
+    width: 47%;
+    margin-top: 25px;
+  }
+  section#skills .container {
+    display: grid;
+  }
+  section#skills .skill-left ul.wra {
+    display: flex;
+    width: 125%;
+    flex-wrap: wrap;
+  }
+  section#skills .exp-right {
+    padding: 89px 36px;
+  }
+  section#latest section.container h1 {
+    position: relative;
+    font-size: 32px;
+    top: 174px;
+    width: 25%;
+    font-weight: 600;
+  }
+  section#latest ul li {
+    width: 30%;
+    border-top: 2px solid #000;
+    position: relative;
+  }
+  section#clients .top h1.cli-head {
+    font-size: 31px;
+    font-weight: 600;
+    width: 105%;
+  }
+
+  section#clients .top .small ul {
+    display: none;
+  }
+  section#clients .top img.down-arrow {
+    display: none;
+  }
+  section#clients .down img.person {
+    width: 197px;
+    height: 249px;
+    display: none;
+  }
+  section#discuss .disright {
+    padding: 80px;
+    display: none;
+  }
+  hr.linemain {
+    display: none;
+  }
+  section#discuss .dis-left {
+    width: 110%;
+  }
+  section#discuss h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 67%;
+    margin-bottom: 12%;
+  }
+  footer div.bottom div.left {
+    display: none;
+  }
+  footer div.bottom {
+    display: flex;
+    width: 174%;
+  }
+}
+@media all and (max-width: 768px) {
+  section#head .head-span .small ul {
+    display: none;
+    font-size: 12px;
+    width: 85%;
+    margin-top: 25px;
+  }
+  section#head .container .head-span .small {
+    display: none;
+  }
+  section#head .headbottom ul {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 153%;
+  }
+  section#head .right img.play {
+    display: none;
+  }
+  section#head .right h2 {
+    display: none;
+  }
+  section#head .right img {
+    width: 98%;
+    display: block;
+
+    margin-left: 53px;
+  }
+  section#service .serv-left h1 {
+    font-size: 36px;
+    font-weight: 600;
+    width: 237%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  section#service {
+    background: #fcda69;
+    padding: 56px 30px;
+  }
+  section#service .container {
+    display: grid;
+    margin-top: 30px;
+  }
+  section#service .image img {
+    display: none;
+  }
+  section#service .serv-right .f1 h1 {
+    font-weight: 700;
+    font-size: 26px;
+    width: 70%;
+  }
+  section#service .serv-right .f2 h1 {
+    font-weight: 700;
+    font-size: 26px;
+    width: 70%;
+  }
+  section#service .serv-right .f3 h1 {
+    font-weight: 700;
+    font-size: 26px;
+    width: 70%;
+  }
+  section#skills .exp-right {
+    display: none;
+  }
+  footer div.right ul.boto {
+    width: -90%;
+    margin-top: 9px;
+  }
+}
+@media all and (max-width: 640px) {
+  section#service .serv-right .f1 .web {
+    display: grid;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  section#service .serv-right .f2 .mobile {
+    display: grid;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  section#service .serv-right .f3 .dashboard {
+    display: grid;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  section#service .serv-right .img3 {
+    width: 9%;
+    margin-top: 10px;
+  }
+  section#service hr {
+    border: solid 0.5px grey;
+    width: 301px;
+  }
+  footer .contact {
+    width: 30%;
+  }
+  section#service .serv-right .img1 {
+    width: 9%;
+    margin-top: 10px;
+  }
+  section#service .serv-right .img2 {
+    width: 9%;
+    margin-top: 10px;
+  }
+}
+@media all and (max-width: 480px) {
+  section#head .nav-left img {
+    height: 50px;
+    width: 50px;
+  }
+  #head .nav-right ul li a.button {
+    padding: 10px 5px;
+    border: 1px solid #000;
+  }
+  section#head .nav-right a {
+    color: black;
+    margin-right: 29px;
+    font-weight: 600;
+  }
+  section#head .container .left h1 {
+    font-size: 22px;
+    font-weight: 600;
+    width: -40%;
+  }
+  section#skills .skill-left ul.wra {
+    display: flex;
+    width: 119%;
+    flex-wrap: wrap;
+}
+section#latest img.img {
+  display: none;
+}
+section#latest section.container h1 {
+  position: relative;
+  font-size: 32px;
+  top: 59px;
+  width: 82%;
+  font-weight: 600;
+}
+section#latest ul li:nth-child(3) {
+  top: -22px;
+}
+section#latest ul li:nth-child(2) {
+  top: -21px;
+}
+section#latest ul {
+  margin: -18px;
+  padding: 8px;
+  margin-top: 104px;
+}
+section#latest h2 {
+  width: 80%;
+  font-weight: 600;
+  margin-right: 20px;
+  font-size: 13px;
+  margin-top: 5px;
+}
+section#latest h2.vps {
+  width: -31%;
+  font-weight: 600;
+  margin-right: 60px;
+  margin-top: 8px;
+}
+section#latest p {
+  width: 122%;
+  margin-bottom: 10px;
+  font-size: 9px;
+}
+section#latest ul li {
+  width: 30%;
+  border-top: 2px solid #000;
+  position: relative;
+  bottom: 18px;
+}
+section#clients .top h1.cli-head {
+  font-size: 31px;
+  font-weight: 600;
+  width: 160%;
+}
+section#clients .down h2 {
+  font-size: 15px;
+  margin-top: 19px;
+  color: grey;
+  width: 141%;
+}
+section#discuss .icon {
+  width: 10%;
+  margin-right: 12px;
+}
+section#discuss .line {
+  border: solid 0.5px #000;
+  margin-top: 20px;
+  margin-bottom: -5px;
+  width: 64%;
+  margin-left: 30px;
+}
+section#discuss h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  width: 67%;
+  margin-bottom: -1%;
+}
+section#discuss h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  width: 78%;
+  margin-bottom: -1%;
+}
+footer .contact {
+  width: 5%;
+}
+footer .flex {
+  margin-top: 204px;
+  width: 127%;
+  margin-left: -35px;
+}
+footer div.bottom {
+  display: flex;
+  width: 47%;
+}
+footer .right .service {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+footer  ul.img {
+  display: flex;
+}
+footer ul.cont li.email{
+  display: flex;
+  font-size: 12px;
+}
+footer ul.cont li.call a img.call-img{
+  width: 40px;
+  font-size: 17px;
+}
+footer ul.cont li.call a {
+  display: none;
+}
+footer  ul.boto {
+  display: flex;
+}
+footer .contact h6{
+  font-size: 13px;
+  font-weight: 600;
+}
+}
